@@ -5,7 +5,8 @@ import pandas as pd
 import psycopg2 as psy
 
 # Get Song IDs for Popular Artists
-artists = ['kanye west', 'ludacris', 'lil wayne', 'wu-tang clan', 'future']
+artists = ['future']
+
 artist_ids = []
 for artist in artists:
     artist_ids.append(gf.get_artist_id(artist))
